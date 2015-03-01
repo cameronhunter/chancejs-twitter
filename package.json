@@ -4,8 +4,8 @@
   "description": "ChanceJS mixins for Twitter structures.",
   "main": "lib/twitter.js",
   "dependencies": {
-    "chance": "*",
-    "merge": "*"
+    "chance": "~0.7.3",
+    "merge": "~1.2.0"
   },
   "keywords": [
     "chancejs",
