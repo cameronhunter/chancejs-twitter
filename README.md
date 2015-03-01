@@ -1,5 +1,5 @@
 # chancejs-twitter
-[ChanceJS|http://chancejs.com] mixins for Twitter structures. All mixins are namespaced under `twtr`.
+[ChanceJS](http://chancejs.com) mixins for Twitter structures. All mixins are namespaced under `twtr` so as not to conflict with ChanceJS's `twitter` generator for screennames.
 
 ## Supported generators
 
