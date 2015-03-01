@@ -1,7 +1,21 @@
 {
+  "name": "chancejs-twitter",
+  "version": "0.0.1",
+  "description": "ChanceJS mixins for Twitter structures.",
   "main": "lib/twitter.js",
   "dependencies": {
     "chance": "*",
     "merge": "*"
-  }
+  },
+  "keywords": [
+    "chancejs",
+    "random",
+    "twitter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/cameronhunter/chancejs-twitter.git"
+  },
+  "author": "Cameron Hunter <hello@cameronhunter.co.uk> (http://www.cameronhunter.co.uk/)",
+  "license": "MIT"
 }
