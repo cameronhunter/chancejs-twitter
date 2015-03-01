@@ -1,0 +1,109 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'publish' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink /usr/bin/node
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /home/cameron/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/home/cameron/.npm/chancejs-twitter/0.0.1/package.tgz', '.' ]
+12 verbose tarball /home/cameron/.npm/chancejs-twitter/0.0.1/package.tgz
+13 verbose folder .
+14 info prepublish chancejs-twitter@0.0.1
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. /home/cameron/.npm/1f1177db-tar.lock
+17 silly lockFile bd94e45f-ancejs-twitter-0-0-1-package-tgz tar:///home/cameron/.npm/chancejs-twitter/0.0.1/package.tgz
+18 verbose lock tar:///home/cameron/.npm/chancejs-twitter/0.0.1/package.tgz /home/cameron/.npm/bd94e45f-ancejs-twitter-0-0-1-package-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile bd94e45f-ancejs-twitter-0-0-1-package-tgz tar:///home/cameron/.npm/chancejs-twitter/0.0.1/package.tgz
+22 silly lockFile bd94e45f-ancejs-twitter-0-0-1-package-tgz tar:///home/cameron/.npm/chancejs-twitter/0.0.1/package.tgz
+23 silly lockFile a6f5618a-m-chancejs-twitter-0-0-1-package /home/cameron/.npm/chancejs-twitter/0.0.1/package
+24 verbose lock /home/cameron/.npm/chancejs-twitter/0.0.1/package /home/cameron/.npm/a6f5618a-m-chancejs-twitter-0-0-1-package.lock
+25 silly lockFile a6f5618a-m-chancejs-twitter-0-0-1-package /home/cameron/.npm/chancejs-twitter/0.0.1/package
+26 silly lockFile a6f5618a-m-chancejs-twitter-0-0-1-package /home/cameron/.npm/chancejs-twitter/0.0.1/package
+27 silly lockFile 3a52ce78- .
+28 silly lockFile 3a52ce78- .
+29 silly publish { name: 'chancejs-twitter',
+29 silly publish   version: '0.0.1',
+29 silly publish   description: 'ChanceJS mixins for Twitter structures.',
+29 silly publish   main: 'lib/twitter.js',
+29 silly publish   dependencies: { chance: '~0.7.3', merge: '~1.2.0' },
+29 silly publish   keywords: [ 'chancejs', 'random', 'twitter' ],
+29 silly publish   repository:
+29 silly publish    { type: 'git',
+29 silly publish      url: 'http://github.com/cameronhunter/chancejs-twitter.git' },
+29 silly publish   author:
+29 silly publish    { name: 'Cameron Hunter',
+29 silly publish      email: 'hello@cameronhunter.co.uk',
+29 silly publish      url: 'http://www.cameronhunter.co.uk/' },
+29 silly publish   license: 'MIT',
+29 silly publish   readme: '# chancejs-twitter\n[ChanceJS](http://chancejs.com) mixins for Twitter structures. All mixins are namespaced under `twtr` so as not to conflict with ChanceJS\'s `twitter` generator for screennames.\n\n## Supported generators\n\n### Screenname\n```javascript\nchance.twtr.screenname({ length: 10 });\n=> \'@winifredd\'\n\nchance.twtr.screenname({ name: "Cameron Hunter", length: 9 });\n=> \'@cameronh\'\n```\n\n### Hashtag\n```javascript\nchance.twtr.hashtag({ length: 10 });\n=> \'#gonenbefo\'\n```\n\n### Cashtag\n```javascript\nchance.twtr.cashtag({ length: 10 });\n=> \'$wunruktek\'\n```\n\n### Short Links (t.co)\n```javascript\nchance.twtr.tco({ length: 20 });\n=> \'https://t.co/LwuJcBN\'\n```\n\n### API Entities\n\n#### Mention\n```javascript\nchance.twtr.entity.mention({ start: 0, end: 9 })\n=> { screen_name: \'@dollieco\', name: \'Dollie Colon\', id: 4943272568946688, id_str: \'4943272568946688\', indices: [ 0, 9 ] }\n\nchance.twtr.entity.mention({ name: \'Cameron Hunter\', start: 0, end: 9 })\n=> { screen_name: \'@cameronh\', name: \'Cameron Hunter\', id: 5429209780453376, id_str: \'5429209780453376\', indices: [ 0, 9 ] }\n```\n\n#### Hashtag\n```javascript\nchance.twtr.entity.hashtag({ start: 6, end: 23 })\n=> { text: \'#ownepircuvoflako\', indices: [ 6, 23 ] }\n```\n\n#### Cashtag\n```javascript\nchance.twtr.entity.cashtag({ start: 3, end: 15 })\n=> { text: \'$ecetaezfuvn\', indices: [ 3, 15 ] }\n```\n\n#### URL\n```javascript\nchance.twtr.entity.url({ start: 0, end: 15 })\n=> { url: \'https://t.co/97\', expanded_url: \'https://ekolihcug.edu\', display_url: \'ekolihcug.edu\', indices: [ 0, 15 ] }\n```\n',
+29 silly publish   readmeFilename: 'README.md',
+29 silly publish   gitHead: 'c944762c6d5cab35110351ee733717adbd6b6d0e',
+29 silly publish   bugs: { url: 'https://github.com/cameronhunter/chancejs-twitter/issues' },
+29 silly publish   homepage: 'https://github.com/cameronhunter/chancejs-twitter',
+29 silly publish   _id: 'chancejs-twitter@0.0.1',
+29 silly publish   scripts: {},
+29 silly publish   _shasum: '962980d2d2b09aa9444e083a0252bd7f7178b191',
+29 silly publish   _from: '.' }
+30 verbose request where is /chancejs-twitter
+31 verbose request registry https://registry.npmjs.org/
+32 verbose request id 4017417128c110a2
+33 verbose url raw /chancejs-twitter
+34 verbose url resolving [ 'https://registry.npmjs.org/', './chancejs-twitter' ]
+35 verbose url resolved https://registry.npmjs.org/chancejs-twitter
+36 verbose request where is https://registry.npmjs.org/chancejs-twitter
+37 info trying registry request attempt 1 at 22:12:34
+38 http PUT https://registry.npmjs.org/chancejs-twitter
+39 http 403 https://registry.npmjs.org/chancejs-twitter
+40 verbose headers { date: 'Sun, 01 Mar 2015 06:12:36 GMT',
+40 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+40 verbose headers   'content-type': 'application/json',
+40 verbose headers   'cache-control': 'max-age=60',
+40 verbose headers   'content-length': '4382',
+40 verbose headers   'accept-ranges': 'bytes',
+40 verbose headers   via: '1.1 varnish',
+40 verbose headers   'x-served-by': 'cache-sjc3132-SJC',
+40 verbose headers   'x-cache': 'MISS',
+40 verbose headers   'x-cache-hits': '0',
+40 verbose headers   'x-timer': 'S1425190355.967983,VS0,VE124',
+40 verbose headers   'keep-alive': 'timeout=10, max=50',
+40 verbose headers   connection: 'Keep-Alive' }
+41 error publish Failed PUT 403
+42 error Error: forbidden cannot modify pre-existing version: 0.0.1
+42 error old={"name":"chancejs-twitter","version":"0.0.1","description":"ChanceJS mixins for Twitter structures.","main":"lib/twitter.js","dependencies":{"chance":"*","merge":"*"},"keywords":["chancejs","random","twitter"],"repository":{"type":"git","url":"http://github.com/cameronhunter/chancejs-twitter.git"},"author":{"name":"Cameron Hunter","email":"hello@cameronhunter.co.uk","url":"http://www.cameronhunter.co.uk/"},"license":"MIT","gitHead":"4fc94c676adb3b56af1188f781d123afe9c2a54c","bugs":{"url":"https://github.com/cameronhunter/chancejs-twitter/issues"},"homepage":"https://github.com/cameronhunter/chancejs-twitter","_id":"chancejs-twitter@0.0.1","scripts":{},"_shasum":"e9d1ef7f6a31b601d043ece7f78878935ddba9d9","_from":".","_npmVersion":"1.4.28","_npmUser":{"name":"cameronhunter","email":"hello@cameronhunter.co.uk"},"maintainers":[{"name":"cameronhunter","email":"hello@cameronhunter.co.uk"}],"dist":{"shasum":"e9d1ef7f6a31b601d043ece7f78878935ddba9d9","tarball":"http://registry.npmjs.org/chancejs-twitter/-/chancejs-twitter-0.0.1.tgz"}}
+42 error new={"name":"chancejs-twitter","version":"0.0.1","description":"ChanceJS mixins for Twitter structures.","main":"lib/twitter.js","dependencies":{"chance":"~0.7.3","merge":"~1.2.0"},"keywords":["chancejs","random","twitter"],"repository":{"type":"git","url":"http://github.com/cameronhunter/chancejs-twitter.git"},"author":{"name":"Cameron Hunter","email":"hello@cameronhunter.co.uk","url":"http://www.cameronhunter.co.uk/"},"license":"MIT","readme":"# chancejs-twitter\u000a[ChanceJS](http://chancejs.com) mixins for Twitter structures. All mixins are namespaced under `twtr` so as not to conflict with ChanceJS's `twitter` generator for screennames.\u000a\u000a## Supported generators\u000a\u000a### Screenname\u000a```javascript\u000achance.twtr.screenname({ length: 10 });\u000a=> '@winifredd'\u000a\u000achance.twtr.screenname({ name: \"Cameron Hunter\", length: 9 });\u000a=> '@cameronh'\u000a```\u000a\u000a### Hashtag\u000a```javascript\u000achance.twtr.hashtag({ length: 10 });\u000a=> '#gonenbefo'\u000a```\u000a\u000a### Cashtag\u000a```javascript\u000achance.twtr.cashtag({ length: 10 });\u000a=> '$wunruktek'\u000a```\u000a\u000a### Short Links (t.co)\u000a```javascript\u000achance.twtr.tco({ length: 20 });\u000a=> 'https://t.co/LwuJcBN'\u000a```\u000a\u000a### API Entities\u000a\u000a#### Mention\u000a```javascript\u000achance.twtr.entity.mention({ start: 0, end: 9 })\u000a=> { screen_name: '@dollieco', name: 'Dollie Colon', id: 4943272568946688, id_str: '4943272568946688', indices: [ 0, 9 ] }\u000a\u000achance.twtr.entity.mention({ name: 'Cameron Hunter', start: 0, end: 9 })\u000a=> { screen_name: '@cameronh', name: 'Cameron Hunter', id: 5429209780453376, id_str: '5429209780453376', indices: [ 0, 9 ] }\u000a```\u000a\u000a#### Hashtag\u000a```javascript\u000achance.twtr.entity.hashtag({ start: 6, end: 23 })\u000a=> { text: '#ownepircuvoflako', indices: [ 6, 23 ] }\u000a```\u000a\u000a#### Cashtag\u000a```javascript\u000achance.twtr.entity.cashtag({ start: 3, end: 15 })\u000a=> { text: '$ecetaezfuvn', indices: [ 3, 15 ] }\u000a```\u000a\u000a#### URL\u000a```javascript\u000achance.twtr.entity.url({ start: 0, end: 15 })\u000a=> { url: 'https://t.co/97', expanded_url: 'https://ekolihcug.edu', display_url: 'ekolihcug.edu', indices: [ 0, 15 ] }\u000a```\u000a","readmeFilename":"README.md","gitHead":"c944762c6d5cab35110351ee733717adbd6b6d0e","bugs":{"url":"https://github.com/cameronhunter/chancejs-twitter/issues"},"homepage":"https://github.com/cameronhunter/chancejs-twitter","_id":"chancejs-twitter@0.0.1","scripts":{},"_shasum":"962980d2d2b09aa9444e083a0252bd7f7178b191","_from":".","_npmVersion":"1.4.28","_npmUser":{"name":"cameronhunter","email":"hello@cameronhunter.co.uk"},"maintainers":[{"name":"cameronhunter","email":"hello@cameronhunter.co.uk"}],"dist":{"shasum":"962980d2d2b09aa9444e083a0252bd7f7178b191","tarball":"http://registry.npmjs.org/chancejs-twitter/-/chancejs-twitter-0.0.1.tgz"}}: chancejs-twitter
+42 error     at RegClient.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:308:14)
+42 error     at Request._callback (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:246:65)
+42 error     at Request.self.callback (/usr/lib/node_modules/npm/node_modules/request/request.js:236:22)
+42 error     at Request.emit (events.js:98:17)
+42 error     at Request.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:1142:14)
+42 error     at Request.emit (events.js:117:20)
+42 error     at IncomingMessage.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:1096:12)
+42 error     at IncomingMessage.emit (events.js:117:20)
+42 error     at _stream_readable.js:943:16
+42 error     at process._tickCallback (node.js:419:13)
+43 error If you need help, you may report this *entire* log,
+43 error including the npm and node versions, at:
+43 error     <http://github.com/npm/npm/issues>
+44 error System Linux 3.2.0-77-generic-pae
+45 error command "/usr/bin/node" "/usr/bin/npm" "publish"
+46 error cwd /home/cameron/Development/chancejs-twitter
+47 error node -v v0.10.33
+48 error npm -v 1.4.28
+49 verbose exit [ 1, true ]

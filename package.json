@@ -1,6 +1,6 @@
 {
   "name": "chancejs-twitter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ChanceJS mixins for Twitter structures.",
   "main": "lib/twitter.js",
   "dependencies": {
